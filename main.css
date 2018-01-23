@@ -1,0 +1,13 @@
+body { text-align: center;
+}
+.box { display: inline-block;
+height: 500px;
+width: 200px;
+}
+.blue {background-color: blue;}
+.red{ background-color: red;}
+.brown {background-color: brown;}
+.orange{ background-color: orange;}
+.container {width: 200px;
+height: 200px;
+background-color: yellow;}
