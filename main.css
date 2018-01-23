@@ -1,8 +1,8 @@
 body { text-align: center;
 }
 .box { display: inline-block;
-height: 500px;
-width: 200px;
+height: 250px;
+width: 24%;
 }
 .blue {background-color: blue;}
 .red{ background-color: red;}
@@ -11,3 +11,13 @@ width: 200px;
 .container {width: 200px;
 height: 200px;
 background-color: yellow;}
+@media only screen and (max-width 600px){
+  .orange,.red{ display: none;
+
+  }
+}
+@media only screen and (min width:1000px;){
+  .box{ width: 100%;
+
+  }
+}
